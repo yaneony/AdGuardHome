@@ -10,8 +10,15 @@
 }
 
 .ReactTable .rt-thead {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.ReactTable .rt-thead.-header {
     box-shadow: none;
-    border-bottom: 1px solid rgba(0, 40, 100, 0.12) !important;
+}
+
+.ReactTable .rt-resizer {
+    right: -8px !important;
 }
 
 .card-table .ReactTable .rt-td {
